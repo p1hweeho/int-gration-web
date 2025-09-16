@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+}
+
+header {
+  background-color: rgb(17, 17, 139);
+  margin: 0;
+  display: flex;
+}
+header .header {
+  color: white;
+  font-family: "Lato", serif;
+  font-style: normal;
+  padding: 23px 60px;
+}
+
+img {
+  width: 100%;
+}
+
+article .emma {
+  color: #11118B;
+  font-family: "Lato", serif;
+  font-style: normal;
+  font-size: 35px;
+  padding: 25px 0px 0px 25px;
+}
+article .lilou {
+  color: #272727;
+  font-family: "Lato", serif;
+  font-size: 16px;
+  padding: 14px 0px 0px 25px;
+}
+article button {
+  color: white;
+  font-family: "Lato", serif;
+  font-style: normal;
+  border: none;
+  background-color: #11118B;
+  font-size: 15px;
+  padding: 8px 12px;
+  margin: 26px 25px 0px 25px;
+}
+article button:hover {
+  background-color: #a2a2fd;
+  transition: scale 1s;
+}
+
+.block1 {
+  background-color: #EEEEFC;
+  margin: 70px 25px 0px;
+}
+.block1 .justine {
+  color: #11118B;
+  font-family: "Lato", serif;
+  font-style: normal;
+  font-size: 35px;
+  padding: 38px 0px 0px 38px;
+}
+.block1 .edwyn {
+  color: #272727;
+  font-family: "Lato", serif;
+  font-size: 16px;
+  padding: 14px 52px 38px 38px;
+}
+
+.block2 {
+  background-color: #EEEEFC;
+  margin: 35px 25px 70px;
+}
+.block2 .leo {
+  color: #11118B;
+  font-family: "Lato", serif;
+  font-style: normal;
+  font-size: 35px;
+  padding: 38px 0px 0px 38px;
+}
+.block2 .val {
+  color: #272727;
+  font-family: "Lato", serif;
+  font-size: 16px;
+  padding: 14px 52px 38px 38px;
+}/*# sourceMappingURL=exo.css.map */

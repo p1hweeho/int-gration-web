@@ -1,0 +1,71 @@
+@import "./variable";
+
+* {
+    margin: 0;
+}
+
+header {
+    background-color: $FondBleu;
+    margin: 0;
+    display: flex; 
+    .header {
+    @include font;
+    padding: 23px 60px ;
+    }      
+}
+
+img {
+    width: 100%;
+}
+
+article {
+    .emma{
+        @include frontière;
+        padding: 25px 0px 0px 25px;
+    }
+
+    .lilou {
+        @include grey;
+        padding: 14px 0px 0px 25px;
+
+    }
+    button {
+        @include font;
+        border: none;
+        background-color: #11118B;
+        font-size: 15px;
+        padding: 8px 12px;
+        margin: 26px 25px 0px 25px ;
+        &:hover {
+            background-color:#a2a2fd;
+            transition: scale 1.0s;
+        }
+    }
+}
+
+
+.block1 {
+    background-color: #EEEEFC;
+    margin: 70px 25px 0px;
+    .justine {
+        @include frontière;
+        padding: 38px 0px 0px 38px;
+    }
+    .edwyn {
+        @include grey;
+        padding: 14px 52px 38px 38px;
+    }
+}
+
+.block2 {
+    background-color: #EEEEFC;
+    margin: 35px 25px 70px;
+    .leo {
+         @include frontière;
+        padding: 38px 0px 0px 38px;
+    }
+    .val {
+        @include grey;
+        padding: 14px 52px 38px 38px;
+    }
+}

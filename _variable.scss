@@ -1,0 +1,26 @@
+$FondBleu: rgba(17, 17, 139, 1);
+$fontColor: white;
+$colorFont: #11118B;
+$greycolor: #272727;
+
+
+@mixin font (){
+    color: $fontColor;
+    font-family: 'Lato', serif;
+    font-style: normal;
+}
+
+@mixin frontière (){
+    color: $colorFont;
+    font-family: 'Lato', serif;
+    font-style: normal;
+    font-size: 35px;
+}
+
+@mixin grey (){
+    color: $greycolor;
+    font-family: 'Lato', serif;
+    font-size: 16px;
+}
+
+
